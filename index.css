@@ -52,3 +52,19 @@ h1{
 h2{
   font-weight:400;
 }
+.section-body{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+}
+.chart-main{
+  display:flex;
+  width:100%;
+  justify-content: space-evenly;
+}
+#canvas{
+  color:var(--primary-1);
+}
+h3{
+
+}

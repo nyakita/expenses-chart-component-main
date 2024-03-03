@@ -18,8 +18,6 @@ html{
 
 body{
   background:var(--neutral-3);
-  /* width:25%; */
-  max-width:25%;
   margin:0 auto;
   font-family:var(--fontFamily);
 }
@@ -30,6 +28,8 @@ body{
   justify-content:center;
   margin:0 auto;
   border:2px solid red;
+  width:100%;
+  max-width:360px;
 }
 .section-header{
   background:var(--primary-1);
@@ -41,7 +41,10 @@ body{
   text-align:left;
   border:2px solid blue;
   width:100%;
+  max-width:360px;
   padding:1rem;
+  margin-bottom:1rem;
+  border-radius:10px;
 }
 h1{
   font-size:.75rem;
@@ -52,19 +55,58 @@ h1{
 h2{
   font-weight:400;
 }
+h3{
+  padding:1rem;
+  font-weight:bold;
+  letter-spacing: .1rem;
+  font-size:1.5rem;
+}
 .section-body{
   display:flex;
   flex-direction:column;
-  width:100%;
+  /* width:100%; */
+  max-width:360px;
+  background:var(--neutral-4);
+  border-radius:10px;
+  padding:.5rem;
 }
-.chart-main{
+hr{
+  width:85%;
+  margin:0 auto;
+}
+.chart{
+  padding:2rem;
+  margin:0 auto;
+}
+.section-footer-main{
   display:flex;
-  width:100%;
-  justify-content: space-evenly;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:1.5rem;
 }
-#canvas{
-  color:var(--primary-1);
+.section-footer-header{
+  display:flex;
+  flex-direction:column;
 }
-h3{
-
+h4{
+  font-weight:400;
+  color:var(--neutral-2);
+  margin-bottom:.5rem;
+  margin-top:1rem;
+}
+h5{
+  font-weight:700;
+  font-size:1.5rem;
+}
+.section-footer{
+  display:flex;
+  flex-direction:column;
+}
+.profit{
+  margin-top:2rem;
+  font-weight:bold;
+  text-align:right;
+}
+.text{
+  color:var(--neutral-2);
 }

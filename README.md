@@ -50,10 +50,11 @@ Users should be able to:
 
 The main complexity was to use JS in this project, however I could find a framework called Chart.js to apply this framework as part of the solution.
 
-To see how you can add code snippets, see below:
 
 "
-    'const ctx = document.getElementById('myChart');
+    '
+	
+	const ctx = document.getElementById('myChart');
 
       new Chart(ctx, {
         type: 'bar',
